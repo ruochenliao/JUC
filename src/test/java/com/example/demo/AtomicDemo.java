@@ -2,6 +2,8 @@ package com.example.demo;
 
 import lombok.Data;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 @Data
 public class AtomicDemo implements Runnable{
 
@@ -9,12 +11,7 @@ public class AtomicDemo implements Runnable{
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         counter++;
-        System.out.println(Thread.currentThread().getName() + ":" + counter);
+        System.out.println(Thread.currentThread().getName() + " counter :" + counter);
     }
 }

@@ -87,4 +87,19 @@ public class VolatileTest {
         }
     }
 
+    /**
+     * 使用 atomicInteger，它包含了 volatile 和 atomic 功能
+     *
+     */
+    @Test
+    public void testVolatileWithAtomic(){
+        AtomicIntegerDemo atomicDemo = new AtomicIntegerDemo();
+        for(int i = 0; i < 10; i++){
+            //循环起 10 个线程，每个线程都对 atomicInteger 值进行 + 1 操作
+            Thread thread = new Thread(atomicDemo);
+            thread.setName(String.valueOf(i));
+            thread.start();
+        }
+    }
+
 }
