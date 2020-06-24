@@ -8,6 +8,7 @@ class JUCApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("hello worl");
 	}
 
 }
