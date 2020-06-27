@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ef6216-d532-4a30-b4f2-b9deb61d9625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/ForkJoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/LockConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/ProducerAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/ScheduleThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/BlockingIOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/BufferDirectAllocateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/BufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/ChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/NonBlockingIOTCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/NonBlockingIOUDPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/PipeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/ScatterAndGatherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/SelectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nio/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/juc/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/JUCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/juc/JUCApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/AtomicDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/AtomicIntegerDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/CallableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ConcurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/ConcurrentHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/JUCApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/JUCApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/ThreadDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/juc/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/JUCApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/AtomicDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/JUCApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/VolatileTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,16 +52,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="15649" />
+          <entry key="java" value="15653" />
           <entry key="readme" value="154" />
-          <entry key="txt" value="162" />
+          <entry key="txt" value="165" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15649" />
-          <entry key="PLAIN_TEXT" value="336" />
+          <entry key="JAVA" value="15653" />
+          <entry key="PLAIN_TEXT" value="339" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -169,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/nio/NonBlockingIOUDPTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
-              <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,7 +156,7 @@
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
+              <caret line="269" selection-start-line="269" selection-end-line="269" />
             </state>
           </provider>
         </entry>
@@ -428,7 +394,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="concurrenthashmap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;hashmap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593232340202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593232584168" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -627,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593142737615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NIO">
+      <created>1593232382582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593232382582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,7 +639,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977064" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" sideWeight="0.5022936" side_tool="true" weight="0.25767368" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -676,7 +649,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -702,7 +675,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="atomicInteger" />
     <MESSAGE value="callable&lt;T&gt; 接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="callable&lt;T&gt; 接口" />
+    <MESSAGE value="NIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="NIO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,7 +1056,7 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
         </state>
       </provider>
     </entry>
@@ -1110,7 +1084,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/nio/NonBlockingIOUDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
