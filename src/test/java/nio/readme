@@ -1,0 +1,9 @@
+传统的 IO 面向流
+NIO 面向缓冲区
+    缓冲区是双向的，可以从缓冲区上度还有写
+
+NIO 是非阻塞的
+
+NIO 有一个 selector
+
+NIO 分为通道(Channel)，缓冲区(Buffer) 和 选择器(Selector)

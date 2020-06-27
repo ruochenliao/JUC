@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.juc;
 
 /**
  * HashTable 锁全表, 效率非常低

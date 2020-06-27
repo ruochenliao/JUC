@@ -1,8 +1,11 @@
-package com.example.demo;
+package com.example.juc;
 
 
+import lombok.Data;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 @SpringBootTest
 public class VolatileTest {
@@ -103,3 +106,48 @@ public class VolatileTest {
     }
 
 }
+
+@Data
+class AtomicDemo implements Runnable{
+
+    private volatile static Integer counter = 0;
+
+    @Override
+    public void run() {
+        counter++;
+        System.out.println(Thread.currentThread().getName() + " counter :" + counter);
+    }
+}
+
+class AtomicIntegerDemo implements Runnable{
+
+    private AtomicInteger atomicInteger = new AtomicInteger(0);
+
+    @Override
+    public void run() {
+        atomicInteger.getAndIncrement();
+        System.out.println(Thread.currentThread().getName() + " atomicInteger :" + atomicInteger);
+    }
+}
+
+@Data
+class ThreadDemo implements Runnable{
+    private Boolean flag = false;
+
+    private volatile Boolean flagWithVolatile = false;
+
+    @Override
+    public void run() {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //写数据
+        flag = true;
+        flagWithVolatile = true;
+        System.out.println("flag is " + flag);
+    }
+}
+
+
